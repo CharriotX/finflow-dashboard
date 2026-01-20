@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,          // ВКЛЮЧИТЬ для проектных ссылок
+    "skipLibCheck": true,       // можно включить для ускорения
+    "module": "ESNext",         // обычно такой же как в основном config
+    "moduleResolution": "bundler", // или "node", в зависимости от окружения
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",         // явно указать директорию для выходных файлов
+    "rootDir": "./"            // или директорию с исходниками
+  },
+  "include": ["vite.config.ts"] // или другие файлы конфигурации
+}
